@@ -35,3 +35,8 @@
 .input-field::placeholder {
   color: #999999; /* equivalent to placeholder:text-shade */
 }
+.tag input {
+  width: 100%;
+  outline: none;
+  border: 1px solid gainsboro;
+}
