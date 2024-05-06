@@ -1,11 +1,21 @@
 {
-  "name": "my-react-package",
-  "version": "1.0.0",
-  "description": "A description of your React package",
-  "main": "src/index.js",
+  "name": "react-input-tag-field",
+  "version": "3.0.0",
+  "description": "This is react input tag npm package",
+  "main": "./build/index.js",
   "scripts": {
-    "build": "babel src -d dist",
-    "prepublishOnly": "npm run build"
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "react": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   },
   "keywords": [
     "react input tag npm",
@@ -13,9 +23,5 @@
     "npm input tag"
   ],
   "author": "Uttam Kumar Saha",
-  "license": "MIT",
-  "peerDependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  }
+  "license": "MIT"
 }
