@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-const ReactTagInput = ({tags,setTags}) => {
+const ReactTagInput = ({tags=[],setTags}) => {
 //   const [tags, setTags] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [editIndex, setEditIndex] = useState(null); // State to track the index of the tag being edited
